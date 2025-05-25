@@ -938,32 +938,13 @@ GET /health/system
 - Data minimization principles
 - Privacy by design architecture
 
-## 📚 Documentation
-
-### 📖 Additional Resources
-
-- **[API Documentation](http://localhost:3000/api/docs)** - Complete API reference
-- **[Setup Guide](./SETUP.md)** - Detailed installation instructions
-- **[Architecture Guide](./docs/architecture.md)** - Technical architecture details
-- **[Contributing Guide](./CONTRIBUTING.md)** - How to contribute
-- **[Security Guide](./docs/security.md)** - Security implementation details
-
-### 🎓 Learning Resources
-
-- **[Usage Examples](./src/examples/)** - Comprehensive code examples
-
 ## 📞 Support & Community
-
-### 🤝 Get Help
-
-- **[GitHub Issues](https://github.com/Synaptic-MCP/Synaptic/issues)** - Bug reports and feature requests
-- **[Documentation](https://docs.synapticmcp.xyz)** - Comprehensive guides
 
 ### 🌐 Connect With Us
 
 - **Website**: [https://synapticmcp.xyz](https://synapticmcp.xyz)
 - **Twitter**: [@SynapticMCP](https://x.com/SynapticMCP)
-- **GitHub**: [Synaptic-MCP](https://github.com/Synaptic-MCP)
+- **GitHub**: [@https://github.com/Synaptic-MCP/Synaptic](https://github.com/Synaptic-MCP/Synaptic)
 
 ## 📄 License
 
