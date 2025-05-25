@@ -1,0 +1,59 @@
+{
+  "name": "synaptic-extension",
+  "version": "1.0.0",
+  "description": "Synaptic Browser Extension",
+  "main": "dist/background.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "package": "npm run build && web-ext build --source-dir=dist",
+    "package:chrome": "npm run build && zip -r synaptic-chrome.zip dist/",
+    "package:firefox": "npm run build && web-ext build --source-dir=dist --artifacts-dir=release"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.251",
+    "@types/webextension-polyfill": "^0.10.7",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.4",
+    "mini-css-extract-plugin": "^2.7.6",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "web-ext": "^7.8.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "manifest": {
+    "manifest_version": 3,
+    "name": "Synaptic",
+    "version": "1.0.0",
+    "description": "AI Memory Connection Protocol for your browser",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Synaptic"
+    },
+    "icons": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  }
+} 

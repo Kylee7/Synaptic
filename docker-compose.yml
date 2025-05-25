@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  synaptic:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: synaptic
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - SYNAPTIC_HOST=0.0.0.0
+      - SYNAPTIC_PORT=3000
+      - SYNAPTIC_DB_TYPE=sqlite
+      - SYNAPTIC_DB_PATH=/app/data/synaptic.db
+      - REDIS_URL=redis://redis:6379
+      - SYNAPTIC_LOG_LEVEL=debug
+    volumes:
+      - synaptic_data:/app/data
+      - synaptic_logs:/app/logs
+      - synaptic_uploads:/app/uploads
+      - synaptic_backups:/app/backups
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - synaptic_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: synaptic-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    networks:
+      - synaptic_network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: synaptic-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=synaptic
+      - POSTGRES_USER=synaptic
+      - POSTGRES_PASSWORD=synaptic_db_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - synaptic_network
+
+volumes:
+  synaptic_data:
+  synaptic_logs:
+  synaptic_uploads:
+  synaptic_backups:
+  redis_data:
+  postgres_data:
+
+networks:
+  synaptic_network:
+    driver: bridge 
