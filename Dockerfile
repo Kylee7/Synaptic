@@ -111,10 +111,10 @@ CMD ["node", "dist/index.js"]
 # Labels for metadata
 LABEL name="synaptic"
 LABEL version="1.0.0"
-LABEL description="Synaptic - Decentralized AI MCP"
+LABEL description="Synaptic - Decentralized MCP"
 LABEL maintainer="Synaptic Team <team@synapticmcp.xyz>"
 LABEL org.opencontainers.image.title="Synaptic"
-LABEL org.opencontainers.image.description="Decentralized AI MCP"
+LABEL org.opencontainers.image.description="Decentralized MCP"
 LABEL org.opencontainers.image.version="1.0.0"
 LABEL org.opencontainers.image.vendor="Synaptic Team"
 LABEL org.opencontainers.image.url="https://synapticmcp.xyz"

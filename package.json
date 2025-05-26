@@ -1,7 +1,7 @@
 {
   "name": "synaptic",
   "version": "1.0.0",
-  "description": "Decentralized AI MCP - Making AI Truly Yours",
+  "description": "Decentralized MCP - Making AI Truly Yours",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
