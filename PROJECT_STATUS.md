@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-**Synaptic MCP** (Memory Connection Protocol) is a decentralized AI memory management protocol that provides:
+**Synaptic MCP** is a decentralized AI memory management protocol that provides:
 - Unified memory layer for all AI tools
 - Data sovereignty and privacy protection
 - Token-based value creation

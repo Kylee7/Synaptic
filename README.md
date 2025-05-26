@@ -1,4 +1,4 @@
-# 🧠 Synaptic - Decentralized AI Memory Connection Protocol
+# 🧠 Synaptic - Decentralized AI MCP
 
 <div align="center">
   <img src="./assets/logo.png" alt="Synaptic Logo" width="200" height="200">
@@ -15,7 +15,7 @@
 
 ## 🌟 What is Synaptic?
 
-Synaptic is the world's first **Decentralized AI Memory Connection Protocol** that solves the fundamental problem of AI memory fragmentation. Instead of your conversations and insights being trapped in isolated AI platforms, Synaptic creates a unified, encrypted, and user-owned memory layer that works across all AI tools.
+Synaptic is the world's first **Decentralized AI MCP** that solves the fundamental problem of AI memory fragmentation. Instead of your conversations and insights being trapped in isolated AI platforms, Synaptic creates a unified, encrypted, and user-owned memory layer that works across all AI tools.
 
 ### 🎯 Core Problems We Solve
 

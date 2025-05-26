@@ -43,11 +43,11 @@ export class MemoryConnectionProtocol extends EventEmitter {
   }
 
   /**
-   * Initialize the Memory Connection Protocol
+   * Initialize the MCP
    */
   async initialize(user: User): Promise<void> {
     try {
-      this.logger.info('Initializing Memory Connection Protocol', { userId: user.id });
+      this.logger.info('Initializing MCP', { userId: user.id });
       
       this.currentUser = user;
       
@@ -60,9 +60,9 @@ export class MemoryConnectionProtocol extends EventEmitter {
       this.isInitialized = true;
       this.emit('initialized', { userId: user.id });
       
-      this.logger.info('Memory Connection Protocol initialized successfully');
+      this.logger.info('MCP initialized successfully');
     } catch (error) {
-      this.logger.error('Failed to initialize Memory Connection Protocol', error);
+              this.logger.error('Failed to initialize MCP', error);
       throw error;
     }
   }
@@ -430,7 +430,7 @@ export class MemoryConnectionProtocol extends EventEmitter {
    */
   async shutdown(): Promise<void> {
     try {
-      this.logger.info('Shutting down Memory Connection Protocol');
+      this.logger.info('Shutting down MCP');
       
       await this.memoryVault.close();
       await this.crossMindBridge.close();
@@ -440,7 +440,7 @@ export class MemoryConnectionProtocol extends EventEmitter {
       this.isInitialized = false;
       this.emit('shutdown');
       
-      this.logger.info('Memory Connection Protocol shutdown complete');
+      this.logger.info('MCP shutdown complete');
     } catch (error) {
       this.logger.error('Error during shutdown', error);
       throw error;
@@ -470,7 +470,7 @@ export class MemoryConnectionProtocol extends EventEmitter {
 
   private ensureInitialized(): void {
     if (!this.isInitialized || !this.currentUser) {
-      throw new Error('Memory Connection Protocol not initialized');
+      throw new Error('MCP not initialized');
     }
   }
 

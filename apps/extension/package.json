@@ -30,7 +30,7 @@
     "manifest_version": 3,
     "name": "Synaptic",
     "version": "1.0.0",
-    "description": "AI Memory Connection Protocol for your browser",
+    "description": "AI MCP for your browser",
     "permissions": [
       "storage",
       "activeTab",

@@ -77,7 +77,7 @@ export class SynapticServer {
       res.json({
         name: 'Synaptic API',
         version: '1.0.0',
-        description: 'Decentralized AI Memory Connection Protocol API',
+        description: 'Decentralized AI MCP API',
         endpoints: {
           health: '/health',
           auth: '/api/auth',
@@ -99,7 +99,7 @@ export class SynapticServer {
         info: {
           title: 'Synaptic API',
           version: '1.0.0',
-          description: 'Decentralized AI Memory Connection Protocol API'
+          description: 'Decentralized AI MCP API'
         },
         servers: [
           {
