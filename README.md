@@ -8,12 +8,16 @@
   <img src="./assets/logo.png" alt="Synaptic Logo" width="200" height="200">
 </div>
 
+<div align="center">
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Synaptic-MCP/Synaptic)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/typescript-5.3.2-blue.svg)](https://www.typescriptlang.org/)
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](Dockerfile)
 [![API](https://img.shields.io/badge/API-REST-orange.svg)](http://localhost:3000/api)
+
+</div>
 
 > **🚀 Making AI Truly Yours** - A revolutionary decentralized protocol that gives you complete control over your AI memories and interactions across all platforms.
 
