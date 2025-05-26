@@ -947,7 +947,7 @@ GET /health/system
 ### 🌐 Connect With Us
 
 - **Website**: [https://synapticmcp.xyz](https://synapticmcp.xyz)
-- **Twitter**: [@SynapticMCP](https://x.com/SynapticMCP)
+- **Twitter**: [@Synap_tic](https://x.com/Synap_tic)
 - **GitHub**: [@https://github.com/Synaptic-MCP/Synaptic](https://github.com/Synaptic-MCP/Synaptic)
 
 ## 📄 License
@@ -970,6 +970,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p>
     <a href="https://synapticmcp.xyz">Website</a> •
     <a href="https://docs.synapticmcp.xyz">Documentation</a> •
-    <a href="https://x.com/SynapticMCP">Twitter</a>
+    <a href="https://x.com/Synap_tic">Twitter</a>
   </p>
 </div>
